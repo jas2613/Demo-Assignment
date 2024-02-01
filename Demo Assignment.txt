@@ -1,0 +1,85 @@
+﻿Demo Assignment
+
+
+1.What is HTML?
+
+
+Ans- HTML stands for ‘Hyper Text Markup Language’. 
+This abbreviation can be understood easily as:
+
+
+HyperText: This is used for embedding hyperlinks that take us to different pages.
+ 
+Markup: This is like adding special instructions to your text. You're marking it up to tell the computer how to display it. You use tags, like <tag>content</tag>, to define different parts of your content.
+
+
+Language: it's the language computers understand to create web pages.
+
+
+HTML is the standard markup language for all webpages. It is used to structure the content of the webpages. It consists of a series of elements that tell web browsers how to display the content.
+
+
+The basic structure of html document:
+
+
+<!DOCTYPE html> // this is a html document
+<html lang=”en”> // english language is used
+<html> //root of doc start from here
+<head> //web crawling starts from here
+
+
+ // meta tags what type of encoding it's using (almost always UTF-8), responsiveness, compatibility, and a lot more. 
+ <meta charset="UTF-8" /> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<title>Page Title</title>
+</head>
+<body> //contains content to be displayed on the web page
+<h1>Heading goes here</h1>
+<p>Paragraph starts from here</p>
+</body>  
+</html> //root ends here
+
+
+
+
+2.What is CSS?
+
+
+Ans- It stands for ‘Cascading Style Sheets’. HTML displays content in a structured form on the web page but it has look good and interactive, So in order to improve UI, we use CSS with HTML to make websites look presentable. 
+The abbreviation can be understood as:
+Cascading: It styles elements on a webpage, and it does it in a certain order.
+Style: It is like giving your webpage a personality. For eg: Making content on the website colorful, big, small, centered.
+Sheets: It is a set of rules or instructions on how to style the elements on your webpage.
+CSS decides how things should look, from colors to fonts to the overall layout.
+
+
+
+
+3.What is the difference between front-end and back-end development?
+ 
+Ans-  Front-end Development:
+It is the front-end or the face of a website. It is what users see and interact with. Front-end developers work on the client side, using languages like HTML, CSS, and JavaScript.
+
+
+Back-end Development:
+It is the back-end or the engine behind the scenes, making everything run smoothly. Back-end developers work on the server side, dealing with databases, server logic, and application functionality. They use languages like Python, Java, Ruby, or PHP. for eg: They ensure that when we submit a form, it goes to the right place, and the data is stored correctly. 
+
+
+
+
+4.What is JavaScript?
+
+
+Ans- It's a programming language that makes your web pages dynamic and responsive.   For eg: It changes colors when you hover, pop-up alerts, and dynamic content updates without refreshing the page. It makes your website feel alive and interactive.
+
+
+
+
+5.What is a responsive web design?
+
+
+Ans- A responsive website adjusts its layout, images, and text to fit different screen sizes.Responsive design ensures that users don't need to zoom to read content or struggle with tiny buttons. 
+For eg: Instead of creating separate versions for desktop and mobile, responsive design lets you maintain one website that caters to all devices. It's efficient and easier to manage.
